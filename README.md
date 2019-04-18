@@ -17,7 +17,7 @@ Vue app to add strings of text ('skills') to an existing list. With each entry t
 
 ## General info
 
-- This tutorial project used Vue Components, Templating, Styling, Forms, Animation & Routing.
+- This tutorial project used Vue Components, Templating, Input Verification, Styling, Forms, Animation, Routing.
 
 ## Screenshots
 
@@ -29,11 +29,11 @@ Vue app to add strings of text ('skills') to an existing list. With each entry t
 
 - [Vue Router v3.0.6](https://router.vuejs.org/) the official router for Vue.js
 
-- [Vue CLI v3.6.0](https://github.com/vuejs/vue-cli)
+- [Vue CLI v3.6.0](https://cli.vuejs.org/)
 
 - [Vue Vee-Validate](https://www.npmjs.com/package/vee-validate) a template-based validation framework that validates inputs and displays errors.
 
-- [Vue DevTools extension for Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) was useful for debugging and seeing what was happening with the state when Vuex was used.
+- [Vue DevTools extension for Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) was used for debugging.
 
 ## Setup
 
@@ -64,13 +64,13 @@ methods: {
 
 ## Features
 
-- add and delete skills from the Skills list supplied.
+- Add and delete skills from the Skills list supplied.
 
 ## Status & To-Do List
 
 - Status: Tested and 100% working.
 
-- To-Do: add clock functionality.
+- To-Do: Add mode data inputs and add clock functionality.
 
 ## Inspiration
 

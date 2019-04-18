@@ -1,6 +1,7 @@
 {
   "name": "vue-data-clock",
   "version": "0.1.0",
+	"repository": "https://github.com/AndrewJBateman/vue-data-clock",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
