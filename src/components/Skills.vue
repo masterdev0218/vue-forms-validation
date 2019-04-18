@@ -2,22 +2,29 @@
   <div class="container">
 		<div class="holder">
 			<form @submit.prevent="addSkill">
-				<input type="text" placeholder="Enter a skill you have.." v-model="skill" v-validate="'min:5'" name="skill">
+				<input 
+					type="text" 
+					placeholder="Enter a skill you have.." 
+					v-model="skill" 
+					v-validate="'min:5'"
+					required=true 
+					name="skill">
 
 				<transition name="alert-in" enter-active-class="animated flipInX" leave-active-class="animated flipOutX">
 					<p class="alert" v-if="errors.has('skill')">{{ errors.first('skill') }}</p>
 				</transition>
 			</form>
-
+			<p>This is a list of your skills.</p>
 			<ul>
 				<transition-group name="list" enter-active-class="animated bounceInUp" leave-active-class="animated bounceOutDown">
+
+					<!-- v-for used to iterate through the list of skills-->
 					<li v-for="(data, index) in skills" :key='index'>{{ data.skill }}
 						<i class="fa fa-minus-circle" v-on:click="remove(index)"></i>
 					</li>
 				
 				</transition-group>
 			</ul>
-			<p>These are the skills that you possess...</p>
 		</div>
   </div>
 </template>
@@ -30,7 +37,8 @@ export default {
 			skill: '',
 			skills: [
 			{"skill": "Vue.js"},
-			{"skill": "Frontend Developer"}
+			{"skill": "Frontend Developer"},
+			{"skill": "Backend Developer"}
 			]
 		}
 	},
@@ -41,7 +49,7 @@ export default {
 					this.skills.push({skill: this.skill})
 					this.skill = '';
 				}
-				console.log('not valid');
+				console.log('Input is not valid');
 			})
 		},
 		remove(id) {
@@ -58,7 +66,7 @@ export default {
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
   .holder {
-    background: #fff;
+    background: rgb(213, 243, 193);
   }
 
   ul {
@@ -77,9 +85,11 @@ export default {
   }
 
   p {
-    text-align:center;
-    padding: 30px 0;
+    text-align:left;
+		margin-left: 10px;
+    padding: 10px 0;
     color: gray;
+		font-size: 1.3em;
   }
 
   .container {
