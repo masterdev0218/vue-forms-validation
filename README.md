@@ -1,6 +1,6 @@
 # Vue Data Clock
 
-Vue app to .
+Vue app to add strings of text ('skills') to an existing list. With each entry there is a delete button. Input validation is used to prevent empty strings or strings of less than 5 charaters from being added to the list.
 
 **\* Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -27,7 +27,7 @@ Vue app to .
 
 - [Vue framework v2.6.10](https://vuejs.org/)
 
-- [Vuex Router v3.0.6](https://router.vuejs.org/) the official router for Vue.js
+- [Vue Router v3.0.6](https://router.vuejs.org/) the official router for Vue.js
 
 - [Vue CLI v3.6.0](https://github.com/vuejs/vue-cli)
 
