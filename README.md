@@ -69,7 +69,7 @@ methods: {
 ## :clipboard: Status & To-Do List
 
 * Status: Tested and 100% working.
-* To-Do: Add mode data inputs and add clock functionality.
+* To-Do: Add mode data inputs and add clock functionality. Not a simple ncu -u upgrade.
 
 ## :clap: Inspiration
 
