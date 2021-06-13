@@ -49,7 +49,6 @@
 -addSkill() and remove() functions from `Skills.vue
 
 ```javascript
-
 methods: {
   addSkill() {
     this.$validator.validateAll().then((result) => {
@@ -64,7 +63,6 @@ methods: {
     this.skills.splice(id,1);
   }
 }
-
 ```
 
 ## :cool: Features
@@ -73,7 +71,7 @@ methods: {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Tested and 100% working.
+* Status: Working.
 * To-Do: Add mode data inputs and add clock functionality. Not a simple ncu -u upgrade.
 
 ## :clap: Inspiration
