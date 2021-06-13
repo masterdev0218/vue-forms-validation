@@ -1,8 +1,12 @@
 # :zap: Vue Forms Validation
 
 * Vue app to add strings of text ('skills') to an existing list. With each entry there is a delete button. Input validation is used to prevent empty strings or strings of less than 5 charaters from being added to the list.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-**\* Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/vue-forms-validation?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/vue-forms-validation?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/vue-forms-validation?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/vue-forms-validation?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -16,6 +20,7 @@
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -75,6 +80,10 @@ methods: {
 
 * [Gary Simon Youtube video: "The Vue Tutorial for 2018 - Learn Vue 2 in 65 Minutes"](https://www.youtube.com/watch?v=78tNYZUS-ps&t=2s)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
